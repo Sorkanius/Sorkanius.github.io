@@ -22,7 +22,7 @@ I have experience in topics related with machine learning and statistics. I have
 
 Starting from hardware, I switched to the software world at my first job at Epic Labs. After working there with deep learning for a year, I decided to strengthen my knowledge by coming back to school and study a master's degree. I joined a research group in my last two years of my Bachelor's and during my master's.
 
-Once I finished my master's degree I came back to Epic Labs, the had started their own product: Lightflow, which was then acquired by Haivision.
+Once I finished my master's degree I came back to Epic Labs, they had started their own product: Lightflow, which was then acquired by Haivision.
 
 Currently, I work as a Senior Data Scientist at Cabify in the pricing squad.
 
