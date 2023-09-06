@@ -1,9 +1,5 @@
 # Valorant AIM: The Bayesian way
 
-Author: Ignacio Peletier
-
-## Introduction
-
 After studying Bayesian Statistics for a while. I revisit the study that I did from a controlled experiment with VALORANT Data.
 
 The experiment set up was the following:
@@ -85,7 +81,7 @@ The columns that will be used for our model are explained here:
 
 ### Causal Thinking
 
-The following DAG (Directed Acyclic Graph) express the data generating process. We expect the weapon, the distance and the round affect the number of bots that are downed. The justification is simple:
+The following DAG (Directed Acyclic Graph) expresses the data generating process. We expect the weapon, the distance and the round affect the number of bots that are downed. The justification is simple:
 
 1. Weapon: the Sheriff is a pistol, the Phantom shoots faster than the Vandal, but deals less damage. Thus we expect that the number of downed bots is different with each weapon.
 2. Distance: more obvious than the previous point, our accuracy will be change at different distances, thus the number of downed bots could vary.
@@ -240,7 +236,7 @@ The *r_hat* values being `1.0` indicate a proper sampling from our model. We can
 
 I am choosing to show a HDI (High Density Interval) with an area of 95%, this vastly comes from my nostalgia, any other value would be welcome.
 
-Another check we can to is to compare the the observed data with the posterior distribution of our model:
+Another check we can do is compare the observed data with the posterior distribution of our model:
 
 
 ![png](imgs_bva/output_32_0.png)
@@ -271,7 +267,7 @@ We can see here reflected some of the conclussions in the previous analysis:
 * The accuracy in the vandal is greater than the other two weapons.
 * The accuracy with the phantom and sheriff is very similar.
 
-While in the previous analysis we made the comparions by how many bots were downed, we are now making them by the actually accuracy which is more instrinsic characteristic.
+While in the previous analysis we made the comparions by how many bots were downed, we are now making them by the actual accuracy which is a more instrinsic characteristic.
 
 #### Round
 
@@ -321,7 +317,7 @@ Querying a model like this is just awesome!
 
 We now take a look at the effect of the distance. We average the precision between weapons and check what is the loss of accuracy when going further from the target.
 
-These is the decrease in accuracy in percentage points:
+This is the decrease in accuracy in percentage points:
 
 
 ![png](imgs_bva/output_61_0.png)
