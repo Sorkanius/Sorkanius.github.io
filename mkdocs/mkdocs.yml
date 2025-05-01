@@ -1,9 +1,0 @@
-site_name: Ignacio Peletier 
-site_url: https://sorkanius.github.io/
-nav:
-  - Home: index.md
-  - Blog:
-    - 'Valorant Aim': valorant_aim.md
-    - 'Valorant Aim: The Bayesian Way': bayesian_valorant_aim.md
-  - Freelance: freelance.md
-theme: bootstrap
