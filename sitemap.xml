@@ -2,27 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sorkanius.github.io/</loc>
-         <lastmod>2025-05-01</lastmod>
+         <lastmod>2025-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sorkanius.github.io/bayesian_valorant_aim/</loc>
-         <lastmod>2025-05-01</lastmod>
+         <lastmod>2025-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sorkanius.github.io/blog/</loc>
-         <lastmod>2025-05-01</lastmod>
+         <lastmod>2025-08-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sorkanius.github.io/book/</loc>
+         <lastmod>2025-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sorkanius.github.io/freelance/</loc>
-         <lastmod>2025-05-01</lastmod>
+         <lastmod>2025-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sorkanius.github.io/valorant_aim/</loc>
-         <lastmod>2025-05-01</lastmod>
+         <lastmod>2025-08-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

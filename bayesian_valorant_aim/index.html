@@ -33,6 +33,12 @@
                             <li class="navitem">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
+                            <li class="navitem">
+                                <a href="../freelance/" class="nav-link">Freelance</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../book/" class="nav-link">Book</a>
+                            </li>
                             <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
@@ -45,9 +51,6 @@
     <a href="./" class="dropdown-item active">Valorant Aim: The Bayesian Way</a>
 </li>
                                 </ul>
-                            </li>
-                            <li class="navitem">
-                                <a href="../freelance/" class="nav-link">Freelance</a>
                             </li>
                         </ul>
 
@@ -63,7 +66,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../freelance/" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -187,7 +190,7 @@
 <p>Even though this DAG is simple, thinking causally does not hurt. It is a way to communicate your assumptions in the data generating process. You might be worried about the DAG being wrong or not correct, this is totally understandable. But not thinking about the DAG and throwing all the variables in the model, which is done many times, is actually imposing a causal structure, which of course might not be the right one. So I recommend you to always spend a bit of time thinking about your data generating process, start simple and add complexity in a modular way.</p>
 <h2 id="the-model">The Model</h2>
 <p>We build a binomial regression, with a logistic link:</p>
-<p>log(p/(1-p)) = beta_i + round·j</p>
+<p><code>log(p/(1-p)) = beta_i + round·j</code></p>
 <p>Where <em>beta_i</em> is different for each combination of distance and weapon (<em>i</em>). <em>round</em> is the coefficient associated with the learning as the rounds progressed. <em>j</em> is the round but normalized to the maximum rounds played.</p>
 <p>Note that we will be using uninformative priors. This is highly unrecommended but it is not covered in this analysis.</p>
 <p>We can take a look at the model structure of <code>PyMC</code></p>
