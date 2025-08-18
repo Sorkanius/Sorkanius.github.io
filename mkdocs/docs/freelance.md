@@ -1,6 +1,6 @@
 # Freelance
 
-In my spare time enjoy freelancing data-related tasks. Yes! That is how much I love data. Here are some examples of projects that I have worked on:
+In my spare time enjoy freelancing data-related tasks. Here are some examples of projects that I have worked on:
 
 * Consultancy on Experimentation for metric uplift for a mobile game.
 * Measure the effect of Covid-19 on unemployment.

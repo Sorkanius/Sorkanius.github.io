@@ -7,4 +7,6 @@ nav:
   - Blog:
     - 'Valorant Aim': valorant_aim.md
     - 'Valorant Aim: The Bayesian Way': bayesian_valorant_aim.md
+  - Curriculum: curriculum.md
+
 theme: bootstrap
