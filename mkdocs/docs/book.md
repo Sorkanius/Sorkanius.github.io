@@ -16,4 +16,7 @@ Artificial Intelligence is no longer just a theme from science fiction movies �
 
 Instead of treating AI as something distant or overly technical, this book brings the debate closer to home. It provides the tools to understand how algorithms work, what they mean for our lives, and why **ethical AI is everyone’s responsibility**.  
 
-👉 Get your copy now on [Amazon](https://www.amazon.es/qu%C3%A9-piensan-los-robots-inteligencia/dp/8423437590).  
+👉 Get your copy now on [Amazon](https://www.amazon.es/qu%C3%A9-piensan-los-robots-inteligencia/dp/8423437590).
+
+[![png](img/portada_reducida.png)](https://www.amazon.es/qu%C3%A9-piensan-los-robots-inteligencia/dp/8423437590)
+
