@@ -4,9 +4,9 @@ nav:
   - Welcome: index.md
   - Freelance: freelance.md
   - 'About My Book': book.md
+  - Curriculum: curriculum.md
   - Blog:
     - 'Valorant Aim': valorant_aim.md
     - 'Valorant Aim: The Bayesian Way': bayesian_valorant_aim.md
-  - Curriculum: curriculum.md
 
 theme: simple-blog
