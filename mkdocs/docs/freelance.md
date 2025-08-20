@@ -1,5 +1,3 @@
-# Freelance
-
 In my spare time enjoy freelancing data-related tasks. Here are some examples of projects that I have worked on:
 
 * Consultancy on Experimentation for metric uplift for a mobile game.

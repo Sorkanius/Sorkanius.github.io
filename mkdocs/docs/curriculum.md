@@ -1,5 +1,3 @@
-# Curriculum
-
 I have experience in topics related to machine learning and statistics. My work spans from projects on image classification and object detection to optimizing business metrics using machine learning and measuring results with causal inference techniques, both in experimentation frameworks and with observational data.
 
 Starting from hardware in my uni, I switched to the software world in my first job at Epic Labs. After working there with deep learning for a year, I decided to strengthen my knowledge by pursuing a master's degree, during which I also joined a research group working on fraud detection with deep learning and blockchain.

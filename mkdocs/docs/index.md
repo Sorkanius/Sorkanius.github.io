@@ -1,5 +1,3 @@
-# Welcome
-
 ![Me](img/ghibli.png)
 
 I am [Ignacio Peletier](https://www.linkedin.com/in/ignacio-peletier/) a Spanish Telecommunications engineer specialized in Data Science. I am very passionate about my work and I enjoy freelancing data-related projects in my spare time. Constantly learning, currently I am immersed in topics such as causal inference and Bayesian statistics.

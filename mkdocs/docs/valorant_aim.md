@@ -3,8 +3,6 @@ Author: Ignacio Peletier
 Title: VALORANT AIM
 ---
 
-# VALORANT AIM
-
 VALORANT is a tactical free-to-play first person shooter developed by Riot Games and launched in June 2020. Given my love to the game I have worked on the experiment design, data collection and analysis of a simple set up. The analysis will try to answer the following questions:
 
 * Which weapon am I better with?
