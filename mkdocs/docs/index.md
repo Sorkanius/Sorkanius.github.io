@@ -6,8 +6,8 @@ I am [Ignacio Peletier](https://www.linkedin.com/in/ignacio-peletier/) a Spanish
 
 Although I will cover diverse topics in my blog, you will mainly find: **statistical inference, causal inference, bayesian statistics and machine learning**.
 
-1. **Valorant Aim**. Here you will find an analysis about accuracy with different guns while playing Valorant. 
-2. **Valorant Aim: The Bayesian Way**. Using the same data as the previous post, we build a logistic regression the Bayesian way.
+1. [**Valorant Aim**](https://sorkanius.github.io/valorant_aim/). Here you will find an analysis about accuracy with different guns while playing Valorant. 
+2. [**Valorant Aim: The Bayesian Way**](https://sorkanius.github.io/bayesian_valorant_aim/). Using the same data as the previous post, we build a logistic regression the Bayesian way.
 
 # Work Experience
 
