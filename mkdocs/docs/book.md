@@ -1,4 +1,4 @@
-## 📘 *En qué piensan los robots* — An Artificial Intelligence Book for Everyone
+## 📘 *En qué piensan los robots*
 
 Artificial Intelligence is no longer just a theme from science fiction movies — it is shaping our everyday lives. From recommendation algorithms and delivery apps to medical robots and virtual assistants like ChatGPT, AI has become a **daily presence**. But with these innovations come urgent ethical questions:  
 
@@ -6,7 +6,7 @@ Artificial Intelligence is no longer just a theme from science fiction movies �
 - Who is accountable if an AI system makes a mistake in healthcare?  
 - Should we trust the future of humanity to a small group of tech executives and investors?  
 
-### Why This AI Book Matters
+### An Artificial Intelligence Book for Everyone
 *En qué piensan los robots* is written for **anyone who wants to understand artificial intelligence and machine learning** without needing a technical background. It explores both the opportunities and the challenges of AI, offering readers clear insights into:  
 
 - The fundamentals of AI and machine learning  
