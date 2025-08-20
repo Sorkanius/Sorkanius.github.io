@@ -135,38 +135,43 @@
                 <h1 class=" title" id="component-title">Valorant Aim</h1>
             
         </header>
-        <p><p>VALORANT is a tactical free-to-play first person shooter developed by Riot Games and launched in June 2020. Given my love to the game I have worked on the experiment design, data collection and analysis of a simple set up. The analysis will try to answer the following questions:</p>
+        <p><p>VALORANT is a free-to-play tactical first-person shooter by Riot Games. It launched in June 2020. I designed a small experiment to analyze aim performance. The study covers weapon accuracy, distance effects, and player improvement over time.  </p>
+<p>Key questions:</p>
 <ul>
-<li>Which weapon am I better with?</li>
-<li>Does the distance affect the number of bots I am able to shoot down?</li>
-<li>Am I actually better with a weapon at close distance and with a different one at a further distance?</li>
-<li>As the rounds progressed, was I actually getting better?</li>
+<li>Which weapon gives me better results?  </li>
+<li>Does distance reduce the number of bots I can eliminate?  </li>
+<li>Do weapons perform differently at close vs. long range?  </li>
+<li>Do I improve as the rounds progress?  </li>
 </ul>
-<h2 id="experiment-set-up">Experiment Set Up</h2>
-<p>The experiment set up was the following:</p>
-<p>In the range, 30 bots were configured. They were static and had armor on (150 HP). The difficulty set was <strong>medium</strong>.</p>
-<p>The shots were fired at two different distances labeled as "close" and "long". Shown in the pictures below: </p>
-<p><img alt="Close Distance" src="../imgs_va/vandal_close.png" title="Close Distance" />
-<em>Close distance</em></p>
-<p><img alt="Long Distance" src="../imgs_va/vandal_long.png" title="Long Distance" />
-<em>Long distance</em></p>
-<p>Three different weapons were used: Sheriff, Phantom and Vandal.</p>
-<p>For each configuration, 10 measurements were taken, thus: <code>3 weapons x 2 distances x 10 measurements = 60 samples</code>. The order was randomized in order to reduce bias.</p>
-<h2 id="plotting-the-data">Plotting the Data</h2>
-<p>Here is a plot of the distribution of downed bots per distance and weapon:</p>
-<p><img alt="downed bots distribution" src="../imgs_va/distribution.png" title="Bots downed per weapon and distance" />
-<em>Distribution of downed bots in different configurations</em> </p>
-<p>It can be observed that there are differences between close distance and long distance. Also the vandal has produced better results than the other two weapons. Later, it will be checked if these differences are in fact statistically significant and if they are, they will be quantified.</p>
-<p>Now, another interesting point to check is the interaction between weapons and distance. In order words, am I better with a weapon at close distance and better with other at long distance? Or, does my accuracy decrease less with one weapon than with other one? The following plot shows these differences and tries to answer the question visually:</p>
-<p><img alt="downed bots interaction" src="../imgs_va/interaction.png" title="Interaction between weapon and distance" /></p>
-<p><em>Interaction between weapon and distance</em></p>
-<p>Again, in a different way, the decrease of number of bots downed at long distance can be seen. There seems to be a little bit of interaction between distance and the weapon type, specially seen with the Phantom, which produced better results at closer distance than with the Sheriff but at long distance both weapons performed fairly similar. This interaction will be later checked for statistical significance.</p>
-<p>At last, here is the plot of the number of bots downed as the samples were being taken:</p>
-<p><img alt="downed bots evolution" src="../imgs_va/evolution.png" title="Evolution of downed bots" /><em>Evolution of downed bots as samples were collected</em></p>
-<p>Later it will be checked if this slope is different from zero, in order to check if I was getting better or worse as the rounds progressed.</p>
+<hr />
+<h2 id="experiment-setup">Experiment Setup</h2>
+<p>In the practice range, 30 static bots were used. Each had armor (150 HP). Difficulty was set to <strong>medium</strong>.  </p>
+<p>Two distances were tested:  </p>
+<p><img alt="Close Distance" src="../imgs_va/vandal_close.png" title="Close Distance" /><br />
+<em>Close distance</em>  </p>
+<p><img alt="Long Distance" src="../imgs_va/vandal_long.png" title="Long Distance" /><br />
+<em>Long distance</em>  </p>
+<p>Weapons: Sheriff, Phantom, and Vandal.  </p>
+<p>For every configuration, I recorded 10 trials:<br />
+<code>3 weapons x 2 distances x 10 measurements = 60 samples</code>.<br />
+The order was randomized to reduce bias.  </p>
+<hr />
+<h2 id="data-visualization">Data Visualization</h2>
+<p>The distribution of bots eliminated per weapon and distance:  </p>
+<p><img alt="downed bots distribution" src="../imgs_va/distribution.png" title="Bots downed per weapon and distance" /><br />
+<em>Distribution of downed bots in different setups</em>  </p>
+<p>Results show clear differences. The Vandal outperformed the Sheriff and Phantom. Later analysis checks if these differences are statistically significant.  </p>
+<p>Weapon × distance interaction was also tested. Does accuracy drop less for some weapons at longer range?  </p>
+<p><img alt="downed bots interaction" src="../imgs_va/interaction.png" title="Interaction between weapon and distance" /><br />
+<em>Weapon × distance interaction</em>  </p>
+<p>Findings: accuracy dropped at long range. The vandal is better at both distances. The Phantom and Sheriff interaction is interesting: the Phantom was stronger at close range but both are similar at longer range.  </p>
+<p>I also tracked accuracy over time:  </p>
+<p><img alt="downed bots evolution" src="../imgs_va/evolution.png" title="Evolution of downed bots" /><br />
+<em>Performance across rounds</em>  </p>
+<p>Later tests check if this trend was statistically different from zero.  </p>
+<hr />
 <h2 id="analysis">Analysis</h2>
-<p>Two-way ANCOVA (Analysis of Covariance) will be used for the analysis of the effects of each variable: <code>weapon</code>, <code>distance</code> and <code>round</code>.</p>
-<p>Before running the analysis the assumptions of the ANCOVA are checked.</p>
+<p>I used a <strong>two-way ANCOVA</strong> (Analysis of Covariance) with <code>weapon</code>, <code>distance</code>, and <code>round</code>.  </p>
 <h3 id="linearity-assumption">Linearity Assumption</h3>
 <p>The linearity is assessed by visual inspection of the covariate (<code>round</code>) for each available group:</p>
 <p><img alt="downed bots evolution" src="../imgs_va/individual_plots.png" title="Evolution of downed bots" /><em>Linearity assumption plot</em></p>
@@ -177,8 +182,8 @@
 <p>The Shapiro-Wilk Normality Test is run in the residuals of the model producing a p-value of <code>0.937</code> which is not significant and thus the normality of the residuals is assumed.</p>
 <h3 id="homogeneity-of-variances">Homogeneity of Variances</h3>
 <p>Levene's test is used to check that the variance of the residuals are equal between all the groups. The test yields a p-value of <code>0.482</code> which is again not significant and homogeneity of the residual variances is also assumed.</p>
-<h3 id="two-way-ancova">Two Way ANCOVA</h3>
-<p>Now that all the assumptions are met, the two way ANCOVA is run on the data. Here is the summary of the ANOVA table:</p>
+<h3 id="ancova-results">ANCOVA Results</h3>
+<p>ANOVA table:  </p>
 <table>
 <thead>
 <tr>
@@ -225,9 +230,13 @@
 </tr>
 </tbody>
 </table>
-<p>Both the effect of <code>round</code> and the interaction term (<code>weapon:distance</code>) are not significant. This means that as the rounds progressed the number of bots downed did not increase and also that the effect that the distance in the count of bots downed has does not change with the weapon.</p>
-<p>An F test is run with the previous model and a reduced one, which has no interaction term and <code>round</code> is removed. The test yields a non significant p-value of <code>0.4306</code>, with statistic <code>F(53, 56) = 0.9345</code>, meaning that both models are statistically the same.</p>
-<h3 id="pairwise-comparisons">Pairwise Comparisons</h3>
+<p>Findings:<br />
+<em> No improvement over rounds.<br />
+</em> No interaction between weapon and distance.<br />
+* Strong main effects of both <code>weapon</code> and <code>distance</code>.  </p>
+<p>An F test is run with the previous model and a reduced one, which has no interaction term and <code>round</code> is removed. The test yields a non significant p-value of <code>0.4306</code>, with statistic <code>F(53, 56) = 0.9345</code>, meaning that both models are statistically the same. </p>
+<hr />
+<h3 id="pairwise-comparisons-tukey-hsd">Pairwise Comparisons (Tukey HSD)</h3>
 <p>Using the previous <strong>reduced</strong> model, a Tukey HSD (Honest Significant Difference) test is run, in order to quantify the differences between the groups. Here are the results of the test:</p>
 <ul>
 <li>The differences between the Phantom and the Sheriff are not significant. (p-value of <code>0.8645</code>).</li>
@@ -237,19 +246,18 @@
 </ul>
 <h2 id="conclusions">Conclusions</h2>
 <ol>
-<li>The Vandal produced significant better results than the other weapons.</li>
-<li>Both the Sheriff and the Phantom produced similar results, which is surprising given how different the weapons are.</li>
-<li>The degradation in accuracy due to the fact of shooting further is the same between the weapons.</li>
-<li>There was no significant improvement as more rounds were being done.</li>
+<li><strong>Vandal performed best</strong>, significantly above Sheriff and Phantom.  </li>
+<li><strong>Sheriff and Phantom were similar</strong>, despite weapon differences.  </li>
+<li><strong>Accuracy loss at long distance was consistent across weapons.</strong>  </li>
+<li><strong>No significant performance improvement across rounds.</strong>  </li>
 </ol>
 <h2 id="disclaimer">Disclaimer</h2>
 <ul>
-<li>It is very important to note that the data analyzed comes from one player (me) and that the conclusions might not apply to other players, although the same analysis could be run to check the results for other people.</li>
-<li>It is not the same shooting at the range to the bots than in a game against other people (which actually shoot you back) so this analysis is limited by that fact.</li>
-<li>All the code is available in my github: https://github.com/Sorkanius/articles/tree/master/valorant_aim</li>
-<li>If you want to see me play here are some VALORANT clips of mine: https://www.youtube.com/channel/UCYj6rQZTnRH0p6xi3qWJa_A</li>
-</ul>
-<p>I hope you found this analysis interesting. Feel free to reach me if you have any questions or are interested in more!</p></p>
+<li>This dataset is from a single player (me). Results may not generalize, but the methodology can be reproduced.  </li>
+<li>Shooting bots is not the same as competing against real players.  </li>
+<li>All code is on <a href="https://github.com/Sorkanius/articles/tree/master/valorant_aim">GitHub</a>.  </li>
+<li>Clips of me playing are on <a href="https://www.youtube.com/channel/UCYj6rQZTnRH0p6xi3qWJa_A">YouTube</a>.  </li>
+</ul></p>
     </article>
 </section>
 <!-- endblock -->
