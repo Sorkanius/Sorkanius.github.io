@@ -2,15 +2,15 @@
 
 I have experience in topics related to machine learning and statistics. My work spans from projects on image classification and object detection to optimizing business metrics using machine learning and measuring results with causal inference techniques, both in experimentation frameworks and with observational data.
 
-Starting from hardware, I switched to the software world in my first job at Epic Labs. After working there with deep learning for a year, I decided to strengthen my knowledge by pursuing a master's degree, during which I also joined a research group working on fraud detection with deep learning and blockchain.
+Starting from hardware in my uni, I switched to the software world in my first job at Epic Labs. After working there with deep learning for a year, I decided to strengthen my knowledge by pursuing a master's degree, during which I also joined a research group working on fraud detection with deep learning and blockchain.
 
 After completing my master’s, I returned to Epic Labs, where I worked on their product Lightflow, which was later acquired by Haivision. There I contributed to machine learning algorithms for video optimization and data streaming.
 
-I then joined Cabify as a Senior Data Scientist in the pricing team, where I led initiatives on dynamic pricing strategies, causal inference, and behavioral economics, helping to improve marketplace efficiency and revenue.
+I then joined Cabify as a Senior Data Scientist in the pricing team, where I led initiatives on dynamic pricing strategies with causal inference, and behavioral economics, helping to improve marketplace efficiency and revenue.
 
-Later, I moved to Busuu, where I worked on experimentation frameworks, user LTV modeling, and features powered by Large Language Models and Automatic Speech Recognition to enhance the learning experience of millions of users. After a period at MoonPay as a Senior Growth Data Scientist in the monetization team, where I defined and optimized pricing strategies and applied advanced causal inference techniques, I returned to Busuu.
+Later, I moved to Busuu, where I helped built the experimentation engine, and worked on user LTV modeling, and features powered by Large Language Models and Automatic Speech Recognition to enhance the learning experience. After a period at MoonPay as a Senior Growth Data Scientist in the monetization team, where I defined and optimized pricing strategies and applied advanced causal inference techniques, I returned to Busuu.
 
-Currently, I am working at Busuu on features that leverage Generative AI to better understand and correct learners’ mistakes, with the goal of improving the personalization and effectiveness of the learning process.
+Currently, I am working at Busuu on features that leverage statistics and Generative AI to better understand and correct learners’ mistakes, with the goal of improving the personalization and effectiveness of the learning process.
 
 # Work Experience
 

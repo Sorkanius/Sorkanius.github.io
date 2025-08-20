@@ -1,6 +1,4 @@
-# Hello!
-
-Welcome to my Personal website.
+# Welcome
 
 ![Me](img/IPR.jpg)
 
