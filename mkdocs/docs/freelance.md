@@ -1,13 +1,17 @@
-In my spare time enjoy freelancing data-related tasks. Here are some examples of projects that I have worked on:
+In my spare time, I enjoy freelancing on data-related projects. Some examples of my work include:  
 
-* Consultancy on Experimentation for metric uplift for a mobile game.
-* Measure the effect of Covid-19 on unemployment.
-* Study the framework for an observational study on a Health App.
-* Developed a Marketing Mix Model using Robyn.
-* Create an statistical method for measuring air resistance in a bike, without the need of an air-tunnel.
-* Assessing the effect of different treatments on newborns.
-* Creating the simulator for the numbers on a racing game.
+- **Experimentation Consultancy** – Designed and analyzed experiments to measure metric uplift for a mobile game.  
+- **Covid-19 Impact Analysis** – Quantified the effect of the pandemic on unemployment rates.  
+- **Health App Study Design** – Developed a framework for an observational study to evaluate app effectiveness.  
+- **Marketing Mix Modeling** – Built a MMM using [Robyn](https://facebookexperimental.github.io/Robyn/).  
+- **Sports Science Research** – Created a statistical method to measure air resistance in cycling without the need for a wind tunnel.  
+- **Healthcare Analytics** – Assessed the impact of different treatments on newborn outcomes.  
+- **Game Analytics** – Developed a simulator to model in-game economy and racing performance.  
 
-# Contact
+---
 
-You can contact me via email: [ignacio@peletier.com](mailto:ignacio@peletier.com). You can also find me in [Upwork](https://www.upwork.com/freelancers/~016a2a00974e2e2e64).
+# Contact  
+
+📧 **Email**: [ignacio@peletier.com](mailto:ignacio@peletier.com)  
+💼 **Upwork**: [My Freelancer Profile](https://www.upwork.com/freelancers/~016a2a00974e2e2e64)  
+🔗 **LinkedIn**: [My Profile](https://www.linkedin.com/in/ignacio-peletier/)  

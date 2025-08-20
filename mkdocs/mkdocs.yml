@@ -3,7 +3,7 @@ site_url: https://sorkanius.github.io/
 nav:
   - Welcome: index.md
   - Freelance: freelance.md
-  - 'My Book': book.md
+  - 'About My Book': book.md
   - Blog:
     - 'Valorant Aim': valorant_aim.md
     - 'Valorant Aim: The Bayesian Way': bayesian_valorant_aim.md
